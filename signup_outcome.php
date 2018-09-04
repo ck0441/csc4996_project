@@ -4,7 +4,7 @@ $user_email = $_POST['user_email'];
 $user_password= $_POST['user_password'];
 $retype_password = $_POST['retype_password'];
 
-if(!empty($user_email) || !empty($user_password) || !empty($retype_password))
+if(!empty($user_email) || !empty($user_password) || !empty($retype_password)) //checks if empty
 {
 	$host="localhost:3307";
 	$databaseuser="root";
